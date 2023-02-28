@@ -1,0 +1,107 @@
+/* COMMON CODE START */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.text-justify{
+    text-align: justify;
+}
+:root{
+    --primary-green: #3ac39f;
+    --white: #ffffff;
+    --greenish-blue: #208e9f;
+}
+/* COMMON CODE END */
+
+/* HEADER START */
+header{
+	background: linear-gradient(rgba(0,0,0, 0.50), rgba(0,0,0, 0.50)),
+    url('../img/banner.jpg');
+	background-position: center;
+	background-size: cover;
+}
+.navbar .navbar-brand .fa-rebel{
+    color: var(--primary-green);
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--primary-green);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--white);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--primary-green);
+}
+.banner .main-content{
+    padding: 100px 0px;
+}
+.banner .main-content h1{
+    color: var(--primary-green);
+}
+.banner .main-content .btn-outline-light:hover {
+    color: var(--white);
+    border-color: var(--primary-green);
+    background-color: var(--primary-green);
+}
+.banner .btn{
+    border: 2px solid var(--white);
+    transition: .3s;
+}
+/* HEADER END */
+
+/* ABOUT ME START */
+.about-me .btn-outline-primary {
+    color: #FFF;
+    background-color: #0a8ea0;
+    border-color: #0a8ea0;
+}
+.about-me .btn-outline-primary:hover {
+    color: #000;
+    background-color: transparent;
+    border-color: #000;
+}
+/* ABOUT ME END */
+
+/* SERVICE START */
+.services{
+    background-color: var(--primary-green);
+}
+/* SERVICE END */
+
+/* FOOTER START */
+footer{
+	background: #191919;
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0px 5px;
+}
+footer ul li a{
+	border-radius: 6px;
+	background: #222222;
+	display: inline-block;
+}
+.fb{
+    padding: 8px 13px;
+}
+.tw{
+    padding: 8px 10px;
+}
+.gp{
+    padding: 8px 9px;
+}
+.pi{
+    padding: 8px 10px;
+}
+.vk{
+    padding: 8px 11px;
+}
+footer .back2top{
+	padding: 8px 12px;
+	border-radius: 50%;
+	display: inline-block;
+	border: 1px solid #222222;
+}
+/* FOOTER END */
